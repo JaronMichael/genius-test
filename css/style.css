@@ -1,0 +1,176 @@
+/* lora-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/lora-v35-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* lora-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/lora-v35-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* lora-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/lora-v35-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* lora-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/lora-v35-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-inside {
+  max-width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*Header*/
+.header-container {
+  width: 100%;
+  min-height: 500px;
+  background-image: url("/img/header-cover.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.header-nav {
+  padding-top: 17px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 17px;
+}
+
+.header-logo {
+  display: flex;
+  width: 50%;
+  font-size: 26px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.header-list {
+  display: flex;
+  width: 50%;
+  justify-content:space-around;
+}
+
+.header-link {
+  font-size: 12px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.header-hero {
+  text-align: center;
+}
+
+.header-slogan {
+  margin-top: 110px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  line-height: 51px;
+  color: #FFFFFF;
+}
+
+.header-description {
+  margin: 0;
+  color: rgba(255, 255, 255, .63);
+}
+
+.header-btn {
+  margin-top: 31px;
+  width: 167px;
+  height: 44px;
+  border: 0;
+  border-radius: 3px;
+  background-color: #DD783F;
+  color: #FFFFFF;
+}
+
+/* Main */
+.main-header {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 400;
+}
+
+/* Nav */
+.main-nav {
+  margin-top: 22px;
+  margin-bottom: 23px;
+}
+
+.main-nav-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-list-link {
+  margin: 0 46px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #768088;
+}
+
+/* Hero */
+.main-list-best {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-list-best-item {
+  width: 460px;
+  height: 280px;
+}
+
+.best-one {
+  background-image: url("/img/best-one.png");
+  background-size: cover;
+}
+
+.best-two {
+  background-image: url("/img/best-two.png");
+  background-size: cover;
+}
+
+.best-card-title {
+  margin-left: 20px;
+}
